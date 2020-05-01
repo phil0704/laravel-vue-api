@@ -2022,7 +2022,7 @@ __webpack_require__.r(__webpack_exports__);
       var userName = this.userName; // search for the user. // Note: ${} syntax is a "template literal."
 
       axios.patch("/laravel-vue-api/public/api/user/".concat(userId), {
-        name: userName // Submit
+        name: userName // Submit the post/patch data, as if it were a form!
 
       }).then(function (response) {
         // console.log( response );

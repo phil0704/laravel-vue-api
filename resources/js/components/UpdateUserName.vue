@@ -45,7 +45,7 @@ export default {
          const userName = this.userName;
          // search for the user. // Note: ${} syntax is a "template literal."
          axios.patch(`/laravel-vue-api/public/api/user/${userId}`, {
-            name: userName // Submit
+            name: userName // Submit the post/patch data, as if it were a form!
          })
          .then(response => {
             // console.log( response );
