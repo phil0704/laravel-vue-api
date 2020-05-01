@@ -24,6 +24,8 @@ window.axios = require('../../node_modules/axios').default;
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('users-component', require('./components/Users.vue').default);
 Vue.component('find-user', require('./components/FindUser.vue').default);
+Vue.component('update-user-name', require('./components/UpdateUserName.vue').default);
+
 
 
 /**
